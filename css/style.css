@@ -1,0 +1,63 @@
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+header {
+    height: 50px;
+    background-color: palevioletred;
+}
+
+main {
+  margin-bottom: 20px;  
+}
+
+main .banner {
+    height: 250px;
+    background-color: orange;
+    margin: 20px 0px;
+}
+
+.leadership .leadership-title{
+    background-color: skyblue;
+    height: 50px;
+}
+
+.leadership .row{
+    position: relative;
+    background-color: cornflowerblue;
+    padding: 10px 0px;
+}
+
+main .col {
+    float: left;
+    height: 200px;
+    background-color: skyblue;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-60 {
+    margin: 0px 10px;
+    width: calc(60% - (10px * 2));
+}
+
+footer {
+    height: 50px;
+    background-color: slateblue;
+}
