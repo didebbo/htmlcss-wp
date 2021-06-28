@@ -17,8 +17,25 @@
 }
 
 header {
+    /* background-color: palevioletred; */
+}
+
+header .logo {
     height: 50px;
-    background-color: palevioletred;
+}
+
+header .logo img {
+    height: 100%;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 20px 0px;
+} 
+
+header nav ul li a {
+    text-decoration: none;
+    color: #939393;
 }
 
 main {
