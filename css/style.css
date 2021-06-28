@@ -21,10 +21,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+p, a {
+    color: #939393;
+}
+
 .container {
     width: 60%;
     margin: 20px auto;
 }
+
+/* Header */
 
 header {
     /* background-color: palevioletred; */
@@ -46,8 +52,9 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #939393;
 }
+
+/* Main */
 
 main {
   margin: 20px 0px;  
@@ -84,8 +91,11 @@ main .banner .description {
 }
 
 .leadership .leadership-title{
-    background-color: skyblue;
-    height: 50px;
+    /* background-color: skyblue; */
+}
+
+.leadership-title .sub-title {
+    color: #CBBCB6;
 }
 
 .leadership .row{
