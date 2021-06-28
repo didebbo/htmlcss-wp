@@ -54,19 +54,35 @@ header {
 
 header .logo {
     height: 50px;
+    
 }
+
 
 header .logo img {
     height: 100%;
+    padding-right: 10px;
+    border-right: 2px solid #939393;
 }
 
 header nav ul li {
     display: inline-block;
-    margin: 20px 0px;
+    margin-top: 20px;
+    border: 1px solid #939393;
+    padding: 0px 10px; 
+} 
+
+header nav ul li:hover{
+    background-color: #939393;
+}
+
+header nav ul li:hover a {
+    color: #fff;
 } 
 
 header nav ul li a {
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* Main */
@@ -150,6 +166,10 @@ main .leadership .row .col .i-right {
 /* Footer */
 
 footer {
-    height: 50px;
-    background-color: slateblue;
+    text-align: center;
+    /* background-color: slateblue; */
+}
+
+footer .heart {
+    color: red;
 }
