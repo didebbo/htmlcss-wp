@@ -19,6 +19,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.5rem;
 }
 
 p, a {
@@ -26,8 +31,18 @@ p, a {
 }
 
 .container {
-    width: 60%;
+    width: 80%;
     margin: 20px auto;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #CBBCB6;
+    opacity: 0.6;
 }
 
 /* Header */
@@ -72,16 +87,6 @@ main .banner {
     background-position: center;
 }
 
-main .banner .cover {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #CBBCB6;
-    opacity: 0.6;
-}
-
 main .banner .description {
     position: absolute;
     left: 20px;
@@ -90,24 +95,39 @@ main .banner .description {
     color: #fff;
 }
 
-.leadership .leadership-title{
+main .leadership .leadership-title{
     /* background-color: skyblue; */
 }
 
-.leadership-title .sub-title {
+main .leadership .leadership-title .sub-title {
     color: #CBBCB6;
 }
 
-.leadership .row{
+main .leadership .row{
     position: relative;
-    background-color: cornflowerblue;
-    padding: 10px 0px;
+    /* background-color: cornflowerblue; */
+    padding: 20px 0px;
 }
 
-main .col {
+main .leadership .row .col {
     float: left;
+    /* background-color: skyblue; */
+}
+
+main .leadership .row .col .img {
+    position: relative;
+    width: 100%;
     height: 200px;
-    background-color: skyblue;
+    margin: 10px 0px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+main .leadership .row .col .i-left {
+    background-image: url('../images/img-1.jpg');
 }
 
 .w-20 {
@@ -118,6 +138,8 @@ main .col {
     margin: 0px 10px;
     width: calc(60% - (10px * 2));
 }
+
+/* Footer */
 
 footer {
     height: 50px;
