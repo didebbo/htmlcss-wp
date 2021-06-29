@@ -109,8 +109,11 @@ main .banner .description {
     position: absolute;
     left: 60px;
     bottom: 60px;
-    width: 50%;
+    width: calc(50% + 10px * 2);
+    padding: 10px;
     color: #fff;
+    border-radius: 5px;
+    background-color: rgba(203, 188, 182, 0.6);
 }
 
 main .leadership .leadership-title{
