@@ -64,10 +64,16 @@ header .logo img {
 
 header nav ul li {
     display: inline-block;
-    margin-top: 20px;
-    border: 1px solid #939393;
-    padding: 0px 10px; 
+    margin: 20px 5px 0px;
+    border: 1px solid #939393; 
 } 
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
 
 header nav ul li:hover{
     background-color: #939393;
@@ -77,11 +83,6 @@ header nav ul li:hover a {
     color: #fff;
 } 
 
-header nav ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-}
 
 /* Main */
 
